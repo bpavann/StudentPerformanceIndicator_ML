@@ -5,6 +5,8 @@ Author: Pavan Kumar B
 Author-email: bpavank1025@gmail.com
 Requires-Dist: streamlit
 Requires-Dist: pandas
+Requires-Dist: seaborn
+Requires-Dist: matplotlib
 Requires-Dist: numpy
 Requires-Dist: setuptools
 Requires-Dist: scikit-learn

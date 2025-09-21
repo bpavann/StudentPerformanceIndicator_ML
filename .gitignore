@@ -7,6 +7,8 @@ __pycache__/
 *.so
 
 .DS_Store
+artifacts/
+src/.DS_Store
 
 # Distribution / packaging
 .Python
