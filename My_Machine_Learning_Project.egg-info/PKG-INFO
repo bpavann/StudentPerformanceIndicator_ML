@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: My-Machine-Learning-Project
+Version: 0.0.1
+Author: Pavan Kumar B
+Author-email: bpavank1025@gmail.com
+Requires-Dist: streamlit
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: setuptools
+Requires-Dist: scikit-learn
+Requires-Dist: joblib
+Requires-Dist: catboost
+Requires-Dist: xgboost
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
