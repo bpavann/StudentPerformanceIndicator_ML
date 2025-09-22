@@ -12,6 +12,7 @@ Requires-Dist: setuptools
 Requires-Dist: scikit-learn
 Requires-Dist: joblib
 Requires-Dist: catboost
+Requires-Dist: dataclasses
 Requires-Dist: xgboost
 Dynamic: author
 Dynamic: author-email
