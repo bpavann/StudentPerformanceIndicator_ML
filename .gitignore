@@ -5,9 +5,7 @@ __pycache__/
 
 # C extensions
 *.so
-
 .DS_Store
-artifacts/
 src/.DS_Store
 
 # Distribution / packaging
