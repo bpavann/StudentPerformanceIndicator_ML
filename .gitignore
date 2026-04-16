@@ -9,7 +9,7 @@ __pycache__/
 src/.DS_Store
 
 logs/
-
+.DS_Store/
 # Distribution / packaging
 .Python
 build/
