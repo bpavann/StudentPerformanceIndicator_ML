@@ -52,13 +52,3 @@ It can be extended for:
 - Personalized learning systems  
 
 ---
-
-## Model Evaluation Strategy
-The models are evaluated using:
-- Training accuracy  
-- Testing accuracy  
-- Generalization gap (difference between train and test accuracy)
-
-The best model is selected based on:
-* Highest test accuracy  
-* Minimum generalization gap  
