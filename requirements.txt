@@ -8,7 +8,7 @@ setuptools
 scikit-learn
 joblib
 catboost
-pickle
+dill
 dataclasses
 xgboost
 -e .

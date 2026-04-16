@@ -6,12 +6,14 @@ Author-email: bpavank1025@gmail.com
 Requires-Dist: streamlit
 Requires-Dist: pandas
 Requires-Dist: seaborn
+Requires-Dist: Flask
 Requires-Dist: matplotlib
 Requires-Dist: numpy
 Requires-Dist: setuptools
 Requires-Dist: scikit-learn
 Requires-Dist: joblib
 Requires-Dist: catboost
+Requires-Dist: dill
 Requires-Dist: dataclasses
 Requires-Dist: xgboost
 Dynamic: author

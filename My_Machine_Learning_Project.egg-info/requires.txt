@@ -1,11 +1,13 @@
 streamlit
 pandas
 seaborn
+Flask
 matplotlib
 numpy
 setuptools
 scikit-learn
 joblib
 catboost
+dill
 dataclasses
 xgboost

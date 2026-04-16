@@ -1,63 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Performance Predictor</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f5f7fa;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-        header {
-            background: #4CAF50;
-            color: white;
-            padding: 20px 0;
-        }
-        h1 {
-            margin: 0;
-        }
-        .container {
-            margin-top: 40px;
-        }
-        .btn {
-            display: inline-block;
-            background: #4CAF50;
-            color: white;
-            padding: 12px 24px;
-            text-decoration: none;
-            border-radius: 6px;
-            margin-top: 20px;
-        }
-        .btn:hover {
-            background: #45a049;
-        }
-        footer {
-            margin-top: 50px;
-            padding: 15px;
-            background: #222;
-            color: white;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>📊 Student Performance Predictor</h1>
-        <p>Machine Learning Based Performance Analysis</p>
-    </header>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Performance Predictor</title>
 
-    <div class="container">
-        <h2>Welcome!</h2>
-        <p>This project predicts student performance based on input features using multiple ML models.</p>
-        
-        <a href="/predict" class="btn">Start Prediction</a>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #0f172a;
+        color: #e2e8f0;
+        text-align: center;
+    }
+
+    header {
+        background: #1e3a8a;
+        padding: 25px;
+        color: white;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    h1 {
+        margin: 0;
+        font-size: 28px;
+    }
+
+    p {
+        color: #cbd5e1;
+    }
+
+    .container {
+        margin-top: 80px;
+    }
+
+    .card {
+        background: #111827;
+        width: 450px;
+        margin: auto;
+        padding: 40px;
+        border-radius: 12px;
+        box-shadow: 0 0 20px rgba(59,130,246,0.2);
+        border: 1px solid #1e3a8a;
+    }
+
+    .btn {
+        display: inline-block;
+        margin-top: 20px;
+        background: #2563eb;
+        color: white;
+        padding: 12px 24px;
+        text-decoration: none;
+        border-radius: 6px;
+        font-size: 16px;
+        transition: 0.3s;
+    }
+
+    .btn:hover {
+        background: #1d4ed8;
+        box-shadow: 0 0 12px #3b82f6;
+    }
+
+    footer {
+        margin-top: 100px;
+        padding: 15px;
+        background: #1e293b;
+        color: #94a3b8;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>📘 Student Performance Predictor</h1>
+    <p>Machine Learning Based Score Prediction System</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>Welcome </h2>
+        <p>
+            This application predicts student exam performance using Machine Learning models 
+            based on gender, ethnicity, parental education, and test scores.
+        </p>
+
+        <a href="{{ url_for('predict') }}" class="btn">Start Prediction</a>
     </div>
 
-    <footer>
-        <p>© 2025 Student Performance Project | Built with ❤️‍🔥 using Python & ML</p>
-    </footer>
+</div>
+
+<footer>
+    <p>© 2025 Student Performance Project | Built with ML & Flask</p>
+</footer>
+
 </body>
 </html>
